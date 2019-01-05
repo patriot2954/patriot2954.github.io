@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Игры</title>
+    <link rel="stylesheet" href="css/stylegames.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="icon" href="iconca.png">
+</head>
+<body background="img/orange.jpg" style="background-repeat: repeat">
+<script src="js/memorygame.js" defer></script>
+<script src="js/table.js" defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<div class="header">
+    <div class="headerlogo">ИГРЫ <i class="fas fa-gamepad"></i></div>
+</div>
+<div class="krestiki">
+    <p class="ug">КРЕСТИКИ - НОЛИКИ</p>
+    <div class="game">
+        <button class="btn" id="btn0"></button>
+        <button class="btn" id="btn1"></button>
+        <button class="btn" id="btn2"></button>
+        <button class="btn" id="btn3"></button>
+        <button class="btn" id="btn4"></button>
+        <button class="btn" id="btn5"></button>
+        <button class="btn" id="btn6"></button>
+        <button class="btn" id="btn7"></button>
+        <button class="btn" id="btn8"></button>
+        <div id="result"></div>
+        <button id="ngame" onclick="newGame()">НОВАЯ ИГРА</button>
+    </div>
+</div>
+<div class="memorygame">
+    <p class="ug">ИГРА НА ПАМЯТЬ</p>
+    <div class="body">
+        <div class="vontainer-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-3">
+                    </div>
+                    <div class="col-sm-1">
+                        <p id="click_count"></p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p id="time"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="front_demo" class="front"></div>
+    <button id="norxax" onclick="newGame()">НАЧАТЬ ЗАНОГО</button>
+</div>
+<div class="tablica">
+    <div class="prost">
+        <p class="ug">ТАБЛИЦА БЕЗДЕЛЬНИКА</p>
+        <p class="rows"> КОЛИЧЕСТВО СТРОК
+            <input type="text" id="row" value="5">
+            КОЛИЧЕСТВО СТОЛБЦОВ
+            <input type="text" id="col" value="5">
+        </p>
+        <p class="rows2"> ШИРИНА
+            <input type="text" id="tableWidth" value="100">
+            ВЫСОТА
+            <input type="text" id="tableHeight" value="100">
+        </p>
+    </div>
+    <div class="tablediv">
+        <button id="createTable">ОЗДАТЬ ТАБЛИЦУ</button>
+    </div>
+
+    <div id="addTable"></div>
+
+</div>
+<div id="btndiv">
+    <a href="index.html">
+        <button id="home">ГЛАВНАЯ</button>
+    </a>
+    <a href="skills.html">
+        <button id="ski">СКИЛЛЫ</button>
+    </a>
+</div>
+</body>
+</html>

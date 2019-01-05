@@ -1,0 +1,259 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header {
+    position: relative;
+    bottom: 23px;
+    width: 100%;
+    height: 120px;
+    background-color: darkorange;
+}
+
+.skilldiv {
+    width: 960px;
+    height: 100px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Impact;
+    padding-top: 10px;
+    font-size: 70px;
+}
+
+#myskills {
+    margin-top: 20px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 960px;
+    height: 300px;
+    margin-top: 100px;
+
+}
+
+.box {
+    width: 30%;
+    float: left;
+}
+
+.chart {
+    font-size: 30px;
+    position: relative;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 110px;
+}
+
+.block1 {
+    float: left;
+    width: 960px;
+    height: 140px;
+}
+
+.block2 {
+    float: left;
+    width: 960px;
+    height: 140px;
+}
+
+.block3 {
+    margin-left: 330px;
+    width: 700px;
+    height: 140px;
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.fa-css3-alt {
+    color: #4285F4;
+    margin-top: 14px;
+    font-size: 80px;
+}
+
+
+.boos {
+    top: 23px;
+    left: 15px;
+    position: absolute;
+}
+
+.fa-html5 {
+    color: #e34c26;
+    margin-top: 14px;
+    font-size: 80px;
+}
+
+.photoshop {
+    position: relative;
+    margin-top: 17px;
+}
+
+.adobe {
+    bottom: 40px;
+    width: 200px;
+    right: 100px;
+    position: absolute;
+    font-family: monospace;
+    font-size: 15px;
+    color: #f9f5ed;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.html5 {
+    bottom: 40px;
+    width: 200px;
+    right: 30px;
+    position: absolute;
+    font-family: monospace;
+    font-size: 15px;
+    color: #f9f5ed;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.boostr {
+    bottom: 40px;
+    width: 200px;
+    right: 60px;
+    position: absolute;
+    font-family: monospace;
+    font-size: 15px;
+    color: #f9f5ed;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.fa-node-js {
+    color: #f7df1e;
+    margin-top: 14px;
+    font-size: 80px;
+}
+
+.jslogo {
+    bottom: 40px;
+    width: 200px;
+    right: 50px;
+    position: absolute;
+    font-family: monospace;
+    font-size: 15px;
+    color: #f9f5ed;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.jqlogo {
+    margin-top: 30px;
+}
+
+.jqlogotext {
+    bottom: 40px;
+    width: 200px;
+    right: 40px;
+    position: absolute;
+    font-family: monospace;
+    font-size: 15px;
+    color: #f9f5ed;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.ajaximg {
+    margin-top: 36px;
+}
+
+.ajlogo {
+    bottom: 40px;
+    width: 200px;
+    right: 70px;
+    position: absolute;
+    font-family: monospace;
+    font-size: 15px;
+    color: #f9f5ed;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.skill {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    color: #f9f5ed;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 30px;
+}
+
+#btndiv {
+    width: 900px;
+    height: 110px;
+    margin-top: 100px;
+}
+
+#game {
+    margin-left: 10px;
+    float: left;
+    border-radius: 30px;
+    border: none;
+    width: 300px;
+    height: 100px;
+    background-color: rgba(196, 105, 39, 0.5);
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+}
+
+#home {
+    margin-right: 90px;
+    float: right;
+    border-radius: 30px;
+    border: none;
+    width: 300px;
+    height: 100px;
+    background-color: rgba(196, 105, 39, 0.5);
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+}
+
+
+#home:hover {
+    color: darkorange;
+    text-shadow: 2px 0 2px #000,
+    0 2px 2px #000,
+    -2px 0 2px #000,
+    0 -2px 2px #000;
+    background-color: rgba(196, 105, 39, 0);
+    transition: 1s;
+    font-size: 30px;
+    font-family: Impact;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#game:hover {
+    color: darkorange;
+    text-shadow: 2px 0 2px #000,
+    0 2px 2px #000,
+    -2px 0 2px #000,
+    0 -2px 2px #000;
+    background-color: rgba(196, 105, 39, 0);
+    transition: 1s;
+    font-size: 30px;
+    font-family: Impact;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.fa-studiovinari {
+    float: left;
+    padding-right: 40px;
+}
